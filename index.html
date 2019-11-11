@@ -1062,18 +1062,18 @@
             easing: 'linear'
         });
 
-//         $(window).resize(function() {
-//             if ($(window).width() >= 778){ /* 피씨 화면 */
-//                 $('#contents').css('display', 'block');
-//                 $('#contents2').css('display', 'none');
-//                 skrollr.init()
+        $(window).resize(function() {
+            if ($(window).width() >= 778){ /* 피씨 화면 */
+                $('#contents').css('display', 'block');
+                $('#contents2').css('display', 'none');
+                skrollr.init()
                 
-//             } else if (($(window).width() <= 778)){  /* 모바일 화면 */
-//                 skrollr.init().destroy();
-//                 $('#contents').css('display', 'none');
-//                 $('#contents2').css('display', 'block');
-//             }
-//         });
+            } else if (($(window).width() <= 778)){  /* 모바일 화면 */
+                skrollr.init().destroy();
+                $('#contents').css('display', 'none');
+                $('#contents2').css('display', 'block');
+            }
+        });
         
         
         $(window).scroll(function() {
