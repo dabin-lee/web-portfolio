@@ -3,6 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bad+Script');
 
+
+body, html {
+overflow: visible !important;
+}
+
+
 /* progress */
 .progress {background: #000; color: #f6f6ee; height: 98vh; width: 100%; position: absolute; z-index: 5000;}
 .progress-bar {	border-top: 1px solid rgb(246,246,238);	position: absolute;	top: 50%; width: 0%;}
